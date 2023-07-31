@@ -8,7 +8,7 @@ const filterInput = document.querySelector('.filter-repos');
 // get information from github profile
 const getProfile = async () => {
     const res = await fetch(
-        `https://api.github.com/users/${username}`
+        `https://api.github.com/users/${nazlicansahin}`
         // {
         //     headers: {
         //         Accept: 'application/vnd.github+json',
